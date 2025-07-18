@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Globe from './components/Globe';
+import MercatorMap from './components/MercatorMap';
 import DateControl from './components/DateControl';
 import SolarInfo from './components/SolarInfo';
 import { getSolarInfo } from './utils/solarCalculations';
@@ -25,13 +25,13 @@ function App() {
   return (
     <div className="App">
       <header className="app-header">
-        <h1>Zênite Solar</h1>
-        <p>Visualize onde o Sol passa exatamente no zênite (90°) em qualquer dia do ano</p>
+        <h1>🌞 Zênite Solar - Mapa Mundial Real</h1>
+        <p>Visualize onde o Sol passa exatamente no zênite (90°) em qualquer dia do ano com mapas reais</p>
       </header>
       
       <main className="main-content">
         <div className="globe-container">
-          <Globe
+          <MercatorMap
             zenithLine={solarData.zenithLine}
             subsolarPoint={solarData.subsolarPoint}
             date={selectedDate}

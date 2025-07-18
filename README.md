@@ -13,13 +13,16 @@ Esta aplicação mostra a linha de zênite solar no globo terrestre, calculando 
 
 ## ✨ Funcionalidades
 
-- 🌐 **Visualização 3D interativa** do globo terrestre com Three.js
+- � **Globo 3D real** com textura da Terra de alta qualidade
+- 🗺️ **Projeção Mercator** como alternativa de visualização plana
+- 🔄 **Switch de visualização** para alternar entre 3D e Mercator
 - 📅 **Seletor de data e hora** para explorar qualquer momento
-- 🔴 **Linha de zênite** mostrada em vermelho no globo
+- 🔴 **Linha de zênite** mostrada em ambas as visualizações
 - 🟡 **Ponto subsolar** em tempo real
 - 📊 **Informações detalhadas** sobre cálculos solares
 - 📱 **Design responsivo** para todos os dispositivos
-- 🌍 **Navegação intuitiva** com controles de órbita
+- 🌍 **Navegação intuitiva** com controles de órbita no modo 3D
+- ⚡ **Fallback inteligente** caso as texturas não carreguem
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -95,11 +98,27 @@ Este projeto está configurado para deploy automático na Vercel:
 
 ## 📚 Como Usar
 
-1. **Selecione uma data**: Use o controle de data para escolher qualquer dia
-2. **Ajuste a hora**: Modifique a hora para ver como o ponto subsolar se move
-3. **Explore o globo**: Use o mouse para rotacionar, aproximar e navegar
-4. **Observe a linha vermelha**: Esta é a linha de zênite para o dia selecionado
-5. **Veja o ponto amarelo**: Este é onde o Sol está no zênite no momento exato
+1. **Selecione o modo de visualização**: Use o switch para alternar entre Globo 3D e Mapa Mercator
+2. **Escolha uma data**: Use o controle de data para selecionar qualquer dia
+3. **Ajuste a hora**: Modifique a hora para ver como o ponto subsolar se move
+4. **Explore no modo 3D**: Use o mouse para rotacionar, aproximar e navegar pelo globo
+5. **Analise no modo Mercator**: Veja a linha de zênite em uma projeção plana familiar
+6. **Observe a linha vermelha**: Esta é a linha de zênite para o dia selecionado
+7. **Veja o ponto amarelo**: Este é onde o Sol está no zênite no momento exato
+
+### 🌍 Modo Globo 3D
+- **Textura real da Terra** com dados geográficos precisos
+- **Rotação suave** para melhor visualização
+- **Controles de câmera** intuitivos (zoom, rotação, pan)
+- **Efeito atmosférico** para maior realismo
+- **Grid de coordenadas** para referência
+
+### 🗺️ Modo Projeção Mercator
+- **Visualização plana** familiar aos mapas tradicionais
+- **Grid de latitude/longitude** claramente marcado
+- **Contornos dos continentes** simplificados
+- **Escala de coordenadas** nas bordas
+- **Marcação dos trópicos** e equador
 
 ## 🎯 Casos de Uso Educativos
 
