@@ -70,17 +70,6 @@ export default function SolarInfo({ declination, equationOfTime, subsolarPoint, 
         </div>
       </div>
       
-      <div className="zenith-explanation">
-        <h4>Sobre a Linha de Zênite</h4>
-        <p>
-          A linha vermelha no globo mostra todos os pontos onde o Sol passa pelo zênite 
-          (diretamente acima, a 90°) durante o dia selecionado. Esta linha está sempre 
-          na latitude da declinação solar e se move de leste para oeste conforme a Terra gira.
-        </p>
-        <p>
-          O ponto amarelo mostra onde o Sol está no zênite no momento exato selecionado.
-        </p>
-      </div>
     </div>
   );
 }

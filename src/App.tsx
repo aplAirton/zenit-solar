@@ -25,8 +25,7 @@ function App() {
   return (
     <div className="App">
       <header className="app-header">
-        <h1>🌞 Zênite Solar - Mapa Mundial Real</h1>
-        <p>Visualize onde o Sol passa exatamente no zênite (90°) em qualquer dia do ano com mapas reais</p>
+        <h1>🌞 Zênite Solar</h1>
       </header>
       
       <main className="main-content">

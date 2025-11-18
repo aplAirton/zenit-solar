@@ -65,7 +65,7 @@
 
 .date-control h3 {
   margin: 0 0 20px 0;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -73,7 +73,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .now-button {
@@ -96,8 +96,8 @@
 .date-inputs {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-bottom: 20px;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .input-group {
@@ -119,6 +119,7 @@
   background: rgba(255, 255, 255, 0.1);
   color: white;
   font-size: 1rem;
+  width: 100%;
 }
 
 .input-group input:focus {
@@ -275,7 +276,7 @@
 
 .map-legend {
   display: flex;
-  gap: 20px;
+  gap: 0.5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -284,7 +285,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .legend-color {
@@ -332,13 +333,14 @@
   }
   
   .date-navigation {
-    flex-direction: column;
+    flex-direction: row;
+  }
+  .date-inputs {
+    flex-direction: row;
+    justify-content: space-around;
   }
   
-  .map-legend {
-    flex-direction: column;
-    align-items: center;
-  }
+
 }
 
 /* Estilos customizados para Leaflet */
@@ -464,9 +466,7 @@
 
 .map-wrapper {
   position: relative;
-  border-radius: 15px;
+  border-radius: 1rem;
   overflow: hidden;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
